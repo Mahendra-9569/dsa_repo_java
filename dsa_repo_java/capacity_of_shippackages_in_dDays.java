@@ -1,6 +1,6 @@
 package dsa_repo_java;
 
-public class maximum_book_allocation {
+public class capacity_of_shippackages_in_dDays {
     public static int minPages(int[] arr, int n, int m) {
         int sum = 0;
         int max = 0;
@@ -40,11 +40,12 @@ public class maximum_book_allocation {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1,2,3,4,5,6,7,8,9,10 };
-        int n = 10;
-        int m = 5;
+        int[] arr = {6,1,3,2,2,4,1,2};
+        int n = 8;
+        int m = 3;
         int result = minPages(arr, n, m);
         System.out.println("Maximum number of pages allocated to a student are: " + result);
     }
+    
     
 }

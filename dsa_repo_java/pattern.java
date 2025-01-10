@@ -14,7 +14,8 @@ public class pattern {
                     System.out.print("*");
                     space++;
                 }
-                System.out.println();
+                // System.out.println("Space: "+space);
+                System.out.println( );
 
             }
           

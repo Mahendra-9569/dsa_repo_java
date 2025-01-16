@@ -33,6 +33,7 @@ public class bit_problem {
         int num2 = 20;
         System.out.println(bp.minimizeXor(num1, num2));
         
+        
     }
     
 }

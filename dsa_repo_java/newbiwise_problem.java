@@ -69,7 +69,11 @@ public class newbiwise_problem {
     public static void main(String[] args) {
         newbiwise_problem np = new newbiwise_problem();
         int[] derived = {1, 0, 1, 0, 1, 0};
+        System.out.println("Does valid array exist: ");
         System.out.println(np.doesValidArrayExist(derived));
+
+
+          
         
     }
     
